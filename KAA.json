@@ -1,4 +1,4 @@
 {
   "duck": ["IP", "USERAGENT", "ROUTE", "MID", "TIMESTAMP", "KEY"],
-  "bird": ["IP", "USERAGENT", "ROUTE", "MID"m "KEY"]
+  "bird": ["IP", "USERAGENT", "ROUTE", "MID", "KEY"]
 }
