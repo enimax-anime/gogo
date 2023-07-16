@@ -1,4 +1,5 @@
 {
   "duck": ["IP", "USERAGENT", "ROUTE", "MID", "TIMESTAMP", "KEY"],
+  "vid": ["IP", "USERAGENT", "ROUTE", "MID", "TIMESTAMP", "KEY"],
   "bird": ["IP", "USERAGENT", "ROUTE", "MID", "KEY"]
 }
