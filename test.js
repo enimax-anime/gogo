@@ -281,6 +281,6 @@ extensionList[2000] = {
     }
 };
 
-extensionNames.push(extensionList[2000].name);
-extensionDisabled.push(extensionList[2000].disabled);
-extensionTypes.push(extensionList[2000].type);
+extensionNames[2000] = extensionList[2000].name;
+extensionDisabled[2000] = extensionList[2000].disabled;
+extensionTypes[2000] = extensionList[2000].type;
