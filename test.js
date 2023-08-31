@@ -1,5 +1,4 @@
-importedExtensions.push(2000);
-extensionList[2000] = {
+extensionList["f3568f40-9ef6-476c-b140-f5ad8a7d3598"] = {
     baseURL: "https://gogoanime.gr",
     ajaxURL: "https://ajax.gogo-load.com/ajax",
     type: "anime",
@@ -280,7 +279,3 @@ extensionList[2000] = {
         return `?watch=${url.pathname}&engine=7`;
     }
 };
-
-extensionNames[2000] = extensionList[2000].name;
-extensionDisabled[2000] = extensionList[2000].disabled;
-extensionTypes[2000] = extensionList[2000].type;
