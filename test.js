@@ -1,5 +1,5 @@
-importedExtensions.push("651bf828-4795-11ee-be56-0242ac120002");
-extensionList["651bf828-4795-11ee-be56-0242ac120002"] = {
+importedExtensions.push(2000);
+extensionList[2000] = {
     baseURL: "https://gogoanime.gr",
     ajaxURL: "https://ajax.gogo-load.com/ajax",
     type: "anime",
@@ -279,4 +279,8 @@ extensionList["651bf828-4795-11ee-be56-0242ac120002"] = {
         // https://gogoanime.bid/category/kimetsu-no-yaiba-movie-mugen-ressha-hen-dub
         return `?watch=${url.pathname}&engine=7`;
     }
-}; 
+};
+
+extensionNames.push(extensionList[2000].name);
+extensionDisabled.push(extensionList[2000].disabled);
+extensionTypes.push(extensionList[2000].type);
